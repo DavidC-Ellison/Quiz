@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="Quiz.js"></script>
+<link rel="stylesheet" href="Quiz.css">
+
+
+</head>
+<body>
+    <form name="quiz" id="quiz">
+     <div class="container">
+      <h2>Forza Horizon Knowlage Check</h2>
+        <div class="q01">
+            <label><h3>1. Where is the New Forza Horizon set?</h3></label>
+            <p><input type="radio" name="q01" value="A">A. Germany</p>   
+            <p><input type="radio" name="q01" value="B">B. Mexico</p>
+            <p><input type="radio" name="q01" value="C">C. Japan</p>        
+
+        </div>
+
+        <div class="q02">
+            <label><h3>2. How Many Games are in the Forza Horizon Series?</h3></label>
+            <p><input type="radio" name="q02" value="A">A. 5</p>
+            <p><input type="radio" name="q02" value="B">B. 3</p>
+            <p><input type="radio" name="q02" value="C">C. 7</p>
+         </div>
+
+
+        <div class="q03">
+            <label><h3>3. What Platform(s) can Play Forza Horizon Games?</h3></label>
+            <p><input type="checkbox" name="q03a" value="A">A. Xbox</p>
+            <p><input type="checkbox" name="q03b" value="B">B. Playstation</p>
+            <p><input type="checkbox" name="q03c" value="C">C. Pc</p>
+        </div>
+
+
+        <div class="q04">
+            <label><h3>4. Is Forza Horizon Exclusively playable on the Xbox and PC?</h3></label>
+            <p><input type="radio" name="q04" value="A">A. True</p>
+            <p><input type="radio" name="q04" value="B">B. False</p>
+        </div>
+
+
+        <div class="q05">
+            <label><h3>5. Whats my Favorite Type of Car</h3></label>
+            <p><input type="radio" name="q05" value="A">Modern Super Car</p>
+            <p><input type="radio" name="q05" value="B">Hyper Car</p>
+            <p><input type="radio" name="q05" value="C">Classic Car</p>   
+        </div>
+
+
+        <input type="button" value="submit" onclick="scorer()">
+        <p id="score"></p>
+
+    </div>
+</form>
+
+    
+</body>
+</html>
